@@ -1,0 +1,128 @@
+@media (min-width: 678px){
+    .ccdn__header{
+        display: block;
+        height: 400px;
+        padding: 15px;
+    }
+        
+    .ccdn__header-logo{
+        font-size: 20px;
+    }
+    
+    .ccdn__nav-links ul {
+        list-style-type: none;
+        display: block;
+        padding: 0;  
+    }
+    
+    .ccdn__nav-links a{
+        display: block;
+    }
+    
+    .ccdn__elementos-visuales i{
+        color: #F46530;
+        font-size: 20px;
+        width: auto;
+        transition: all 0.3;
+        cursor: pointer;
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+    
+    .ccdn__buscador{
+        display: block;
+        font-size: 25px;
+        width: 240px;
+        margin-bottom: 30px;
+    }
+    
+    /*Fin header*/
+    
+    /*Comienzo elementos section container-segundo*/
+    .main__elementos-publicidad {
+        flex-direction: column-reverse;
+    }
+    
+    .main__textos-publicidad{
+        text-align: center;
+        align-items: center;
+    }
+    
+    :is(.main__textos-publicidad-h2 , .main__textos-publicidad-h3){
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    .main__textos-publicidad-h2{
+        font-size: 40px;
+    }
+    
+    .main__textos-publicidad-h3{
+        font-size: 20px;
+    }
+    
+    .main__imagen-publicidad img{
+        margin-left: 5px;
+        height: 300px;
+        width: auto;
+    }
+    /*Fin elementos section container-segundo*/
+    
+    /*Comienzo elementos section container-tercero*/
+    .main__boton-desplegable {
+        height: 60px;
+        width: 580px;
+    }
+    
+    .main__contenido-boton p{
+        height: 250px;
+        width: 280px;
+        color: white;
+    }
+    /*Fin elementos section container-tercero*/
+    
+    /* **************************************************************************/
+    /* Paginas ******************************************************************/
+    /* **************************************************************************/
+
+    /*Comienzo Catalogo Videos*/
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .c__contenedor-catalogo{
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .c__titulo-categoria{
+        padding: 10px;
+        display: inline;
+        color: white;
+        font-weight: 300;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 6px;
+    } 
+    
+    .c__video-categoria{
+        border: 1px solid gray;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .c__contenedor-videos-categoria{
+        padding: 0 9%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 15px;
+        padding-bottom: 20px;
+    }
+    /*Fin Catalogo Videos*/
+    }
